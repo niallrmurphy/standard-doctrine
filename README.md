@@ -1,15 +1,15 @@
 # Software Reliability: what we believe
 
-(This is part of Project Cinnte (KIN-TEH), an effort to look at some foundational questions in software reliability.)
+_This is part one of Project Cinnte (KIN-TEH), an effort to look at some foundational questions in software reliability._
 
 ## Introduction
 
-Being professionally interested in questions of software reliability, I've often wondered whether or not we can
-find good models to help explain, characterise, or predict failure. We don't have much in the way of such models today.
+Being professionally interested in questions of software reliability, we have often wondered whether or not we can
+find good models to help explain, characterise, or predict failure. The industry doesn't have much in the way of such models today.
 What we have is practitioner's intuition, and it's often the best thing we do have, but it's hard to know
 if it's the best thing we _could_ have.
 
-In the act of reflecting on this question, I realised that there isn't a good source that documents precisely what
+In the act of reflecting on this question, we realised that there isn't a good source that documents precisely what
 that intuition actually says. The rest of this document is an attempt to do that.
 
 ## The standard model ##
@@ -46,7 +46,7 @@ P5 is believed to be both a practical and a theoretical limit. It’s always har
 
 P6 is a simple engineering observation in the sense that an equation with fewer variables is easier to solve than an equation with more. Unchanging data (as opposed to unchanging code) also makes it easier.
 
-Lorin Hochstein has talked about P7, but it is internalised in many software engineers that a large codebase is in dynamic tension, and intervening in one place can have unexpected effects in other places.
+[Lorin Hochstein](https://lorinhochstein.org/) has talked about P7, but it is internalised in many software engineers that a large codebase is in dynamic tension, and intervening in one place can have unexpected effects in other places.
 
 **P9:** *Outages and software failures happen because of bugs. They also happen because of things that aren’t directly attributable to bugs.*
 
@@ -58,6 +58,6 @@ P10 has been continually demonstrated \- e.g. see small batch sizes in *Accelera
 
 ## Conclusion ##
 
-Much of the work of software reliability, and associated conceptions of risk, rely on these beliefs in some way. Please note that we do not use the term “beliefs” in a way that might imply the propositions are in fact untrue \- most people in industry have hard-won experience of precisely those propositions, which is why they are widely held, and it is precisely because of them that we have practices such as change freezes, release gates, and canarying. But it is notable that not much of them have been explicitly written down; we continue to rely on these beliefs to drive policy, but it is not clear how we would revise them, or in which way we would.
+Much of the work of software reliability, and associated conceptions of risk, rely on these beliefs in some way. Please note that we do not use the term “beliefs” in a way that might imply the propositions are in fact untrue. Most people in industry have hard-won experience of precisely those propositions, which is why they are widely held. It is also precisely because of them that we have practices such as change freezes, release gates, and canarying. But it is notable that not much of them have been explicitly written down: we continue to rely on these beliefs to drive policy, but it is not yet clear how we would revise them, or in which way we would.
 
-That in itself is a pressing problem, since the advent of AI SWE has arguably broken several of these assumptions, and further ones will follow.
+The advent of AI SWE has arguably broken several of these assumptions, and further ones will follow.
