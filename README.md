@@ -12,7 +12,7 @@ if it's the best thing we _could_ have.
 In the act of reflecting on this question, we realised that there isn't a good source that documents precisely what
 that intuition actually says. The rest of this document is an attempt to do that.
 
-## The standard model ##
+## The standard doctrine ##
 
 Here is our take on the "standard doctrine" on bugs, outages, and how software development typically happens \- happened? \- in the pre-AI SWE era.
 
