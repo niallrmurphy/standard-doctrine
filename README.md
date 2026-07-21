@@ -48,13 +48,13 @@ P6 is a simple engineering observation in the sense that an equation with fewer 
 
 [Lorin Hochstein](https://lorinhochstein.org/) has talked about P7, but it is internalised in many software engineers that a large codebase is in dynamic tension, and intervening in one place can have unexpected effects in other places.
 
-**P9:** *Outages and software failures happen because of bugs. They also happen because of things that aren’t directly attributable to bugs.*
+**P8:** *Outages and software failures happen because of bugs. They also happen because of things that aren’t directly attributable to bugs.*
 
-**P10:** *A smaller change to software is more likely to result in working software than a larger change.*
+**P9:** *A smaller change to software is more likely to result in working software than a larger change.*
 
-P9 relates to things which it would be problematic to simply call bugs \- for example, traffic storms, for which the “bug” is “did not anticipate unexpected popularity of consumer good X”.
+P8 relates to things which it would be problematic to simply call bugs \- for example, traffic storms, for which the “bug” is “did not anticipate unexpected popularity of consumer good X”.
 
-P10 has been continually demonstrated \- e.g. see small batch sizes in *Accelerate* and the DevOps movement, and is also reasonable common sense, though we can’t think of a formal support for it.
+P9 has been continually demonstrated \- e.g. see small batch sizes in *Accelerate* and the DevOps movement, and is also reasonable common sense, though we can’t think of a formal support for it.
 
 ## Conclusion ##
 
